@@ -1,0 +1,18 @@
+@media(max-width:1252px){
+    .container-main12345{
+        display: block;
+        background-color: white;
+    }
+
+    .container-main{
+        display: block;
+        flex-direction: none;
+        margin: 0 auto;
+        gap: 0px;
+        margin-top: 100px;
+    }
+
+    .container-main123{
+        display: block;
+    }
+}

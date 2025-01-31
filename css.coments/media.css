@@ -1,0 +1,133 @@
+@media (max-width:1291px) { 
+    .header-conteiner{
+        gap:150px;
+    }
+
+}
+
+@media(max-width:1132px){
+    .header-conteiner{
+        gap:100px;
+    }
+}
+
+@media(max-width:1078px){
+    .header-conteiner{
+        gap:10px;
+    }
+
+    .nav__list{
+        gap: 40px;
+    }
+}
+
+@media(max-width:949px){
+    .nav{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 80%;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: wheat;
+        z-index: 100000;
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        transform: translateX(-100%);
+        visibility: hidden;
+    }
+
+    .nav--active{
+        transform: none;
+        visibility: visible;
+    }
+
+
+    .nav__list{
+        height: 100%;
+        flex-direction: column;
+        padding:50px 0 ;
+    }
+
+    .header-conteiner{
+        justify-content: initial;
+        gap: 700px;
+    }
+
+    .img{
+        height: 400px;
+    }
+
+    .burger{
+        display: block;
+        position: relative;
+        width: 35px;
+        height: 25px;
+        border: none;
+        font: inherit;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .burger__line{
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 4px;
+        background-color: black;
+    }
+    
+    .burger__line:first-child{
+        top:0;
+    }
+    
+    .burger__line:last-child{
+        top:calc(100% - 2px);
+    }
+    
+    .burger__line:nth-child(2){
+        top:50%;
+        transform: translateY(-50%);
+    }
+
+    .burger--active.burger__line:nth-child(2){
+        transform: scale(0);
+    }
+
+    .burger--active.burger__line:first-child{
+        top:50%;
+        transform: rotate(45deg);
+    }
+
+    .burger--active.burger__line:last-child{
+        top:50%;
+        transform: rotate(-45deg);
+    }
+
+    .dim{
+        font-size: 20pxs;
+    }
+}
+
+@media(max-width:841px){
+    .header-conteiner{
+        gap: 500px;
+    }
+}
+
+@media(max-width:643px){
+    .header-conteiner{
+        gap: 300px;
+    }
+}
+
+@media(max-width:448px){
+    .header-conteiner{
+        gap: 200px;
+    }
+}
+
+@media(max-width:343px){
+    .header-conteiner{
+        gap: 150px;
+    }
+}

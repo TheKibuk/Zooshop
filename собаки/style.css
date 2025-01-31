@@ -1,0 +1,335 @@
+body{
+    font-family: sans-serif;
+    background: #cfb894;
+
+}
+
+.container{
+    max-width: 1182px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-footer{
+    max-width: 1582px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+footer{
+    position: relative;
+    top:1900px;
+}
+
+header{
+    display: flex;
+    text-decoration: none;
+    height: 95px;
+}
+
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-reset{
+    list-style-type: none;
+}
+
+.nav_link{
+    font-size: 20px;
+}
+
+.nav_link a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav_link a:hover{
+    color:aqua
+}
+
+.burger{
+    display: none;
+}
+
+.conteiner-all{
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.dim{
+    font-size: 25px;
+}
+
+footer{
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.div123{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+}
+
+.gefwe13{
+    /* Frame 2 */
+
+position: absolute;
+width: 1612px;
+height: 510px;
+left: 154px;
+top: 298px;
+}
+
+.dfewr{
+    /* Frame 4 */
+
+position: absolute;
+width: 1598px;
+height: 495px;
+left: 171px;
+top: 943px;
+
+
+}
+
+.grwtg34{
+    /* Frame 3 */
+
+position: absolute;
+width: 1598px;
+height: 493px;
+left: 171px;
+top: 1541px;
+
+
+}
+header{
+    display: flex;
+    text-decoration: none;
+    justify-content: right;
+    padding-bottom: 30px;
+    /* Header */
+    width: 1920;
+
+background: #FFFFFF;
+border-bottom: 1px solid #D9D9D9;
+
+}
+
+header nav{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color:rgba(19, 48, 100, 0.329);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+header img{
+    position: relative;
+    right:200px ;
+    top:7px;
+}
+
+.ferw{
+    /* Product Info Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 320px;
+min-width: 240px;
+height: 495px;
+left: 14px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+}
+
+.ferw2{
+    /* Product Info Card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 320px;
+min-width: 240px;
+height: 495px;
+left: 450px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+}
+
+.dertw{
+    /* Product Info Card */
+
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 320px;
+    min-width: 240px;
+    height: 495px;
+    left: 886px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    }
+    .dwe2311{
+        /* Product Info Card */
+
+        box-sizing: border-box;
+        
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+        
+        position: absolute;
+        width: 320px;
+        min-width: 240px;
+        height: 495px;
+        left: 1322px;
+        top: 0px;
+        
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 8px;
+        }
+.twfds{
+    /* text-card */
+
+width: 244px;
+height: 28px;
+
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 125% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.dsefw{
+    /* Image */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 288px;
+height: 247px;
+
+/* Image Placeholder */
+background: url(/рыби/фото/generated_image..png), #E3E3E3;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.pronas img{
+    display: flex;
+    position: relative;
+    left: 1000px;
+    bottom:70px;
+}
+
+.pronas p{
+    font-size: 30px;
+}
+
+.pronas div{
+    position: relative;
+    left: 100px;
+    top:200px;
+}
+
+.a12345{
+    justify-content: center;
+    display: flex;
+}
+
+.chorobitu h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.pronas123{
+    background-color: rgb(141, 200, 255);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.div123{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+}

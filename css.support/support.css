@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1382px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-footer{
+    max-width: 1582px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    text-decoration: none;
+    height: 95px;
+}
+
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list-reset{
+    list-style-type: none;
+}
+
+.nav_link{
+    font-size: 20px;
+}
+
+.nav_link a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav_link a:hover{
+    color:aqua
+}
+
+.burger{
+    display: none;
+}
+
+.conteiner-all{
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.dim{
+    font-size: 25px;
+}
+
+footer{
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.div123{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+}
+
+.section{
+    background-color: rgb(221, 202, 172);
+    height: 600px;
+    padding-top: 100px;
+}
+
+.container-map{
+    padding: 0 15px;
+    max-width: 1380px;
+    margin:0 auto;
+    display: flex;
+    margin-top: 30px;
+    gap: 200px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    color: aliceblue;
+}
+
+.all-flex-city{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: gray;
+    padding-left: 30px;
+    width: 280px;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px gainsboro;
+}
+
+.flex-city{
+    margin-top: 30px;
+}

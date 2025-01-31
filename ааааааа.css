@@ -1,0 +1,115 @@
+
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    text-decoration: none;
+    justify-content: right;
+    padding-bottom: 30px;
+}
+
+header nav{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+header img{
+    position: relative;
+    right:200px ;
+    top:7px;
+}
+
+.pronas{
+    background-color: rgb(221, 202, 172);
+    padding-top: 10px;
+}
+
+.knopka{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(199, 130, 74);
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    left:200px;
+    top:40px
+}
+
+.pronas img{
+    display: flex;
+    position: relative;
+    left: 1000px;
+    bottom:70px;
+}
+
+.pronas p{
+    font-size: 30px;
+}
+
+.pronas div{
+    position: relative;
+    left: 100px;
+    top:200px;
+}
+
+.a12345{
+    justify-content: center;
+    display: flex;
+}
+
+.chorobitu h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.a123{
+    margin-right: 200px;
+}
+
+.a123 p{
+    color:greenyellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+.a1234 p{
+    color:rgb(255, 100, 100);
+    font-size:20px;
+    text-align: center;
+}
+
+.zagolov{
+    text-align: center;
+    font-size: 30px;
+}
+
+.text{
+    position: relative;
+    left:100px;
+    font-size: 20px;
+}
+
+.pronas123{
+    background-color: rgb(221, 202, 172);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.div123{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+}
